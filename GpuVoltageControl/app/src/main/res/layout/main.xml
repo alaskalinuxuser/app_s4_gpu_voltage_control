@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:gravity="top|center"
+	android:orientation="vertical"
+	android:background="#2D2D2D">
+
+	<TextView
+		android:text="GPU Voltage Control"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:gravity="center"
+		android:background="#04B1B3"
+		android:textSize="20sp"
+		android:textColor="#FFFFFF"/>
+
+	<TextView
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:text="This is inhearently dangerous! Proceed with caution!"
+		android:gravity="center"
+		android:textColor="#FF0000"/>
+
+	<Button
+		android:layout_height="wrap_content"
+		android:layout_width="150dp"
+		android:text="Undervolt GPU"
+		android:id="@+id/uvButton"/>
+
+	<Button
+		android:layout_height="wrap_content"
+		android:layout_width="150dp"
+		android:text="Set to Default"
+		android:id="@+id/dfButton"
+		android:layout_margin="5dp"/>
+
+	<Button
+		android:layout_height="wrap_content"
+		android:layout_width="150dp"
+		android:text="Overvolt GPU"
+		android:id="@+id/ovButton"/>
+
+	<Button
+		android:layout_height="wrap_content"
+		android:layout_width="150dp"
+		android:text="Exit the App"
+		android:id="@+id/exitButton"
+		android:layout_margin="5dp"/>
+
+	<TextView
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:text="This is inhearently dangerous! Proceed with caution!"
+		android:gravity="center"
+		android:textColor="#FF0000"
+		android:layout_gravity="center"/>
+
+	<TextView
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:text="This program is only for kernels that support Faux123's GPU voltage control. This app is specifically written for the AKLU kernel on the JFLTE family of phones."
+		android:textColor="#FFFFFF"
+		android:gravity="center"
+		android:layout_margin="5dp"/>
+
+</LinearLayout>
+
